@@ -737,14 +737,14 @@ Select Barber.html
 
 .choose-barber-wrapper {
   flex-wrap: wrap;
-  max-width: 900px;
+  max-width: 1200px;
   margin-inline: auto;
   gap: 2em;
 }
 
 .barber-container {
   width: 100%;
-  max-width: 400px;
+  max-width: 350px;
   margin-inline: auto;
   background-color: #ffffff;
   border-radius: 6px;
