@@ -300,6 +300,13 @@ Typography
   display: inline-block;
 }
 
+small {
+  display: block;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  color: var(--clr-light);
+  opacity: .4;
+}
 
 
 /* ====================
@@ -637,7 +644,7 @@ Styling
 
 .footer-container {
   align-items: center;
-  padding: 2rem 1rem;
+  padding: 2rem 1rem 1rem 2rem;
 }
 
 .footer-top .page-logo {
@@ -662,6 +669,13 @@ Styling
   height: 35px;
   color: var(--clr-primary);
   opacity: .8;
+}
+
+small {
+  margin-bottom: 2.25rem;
+  padding-inline: 1rem;
+  max-width: 750px;
+  margin-inline: auto;
 }
 
 .footer-social:hover,
