@@ -326,7 +326,7 @@ Styling
 }
 
 .section-hero {
-  background-image: url(./img/barber-hero.jpg),linear-gradient(to bottom, #030a02f1 10%, #0c12063c  45%, #030a02fb 90%);
+  background-image: url(./img/barber-hero-mobile.jpg),linear-gradient(to bottom, #030a02f1 10%, #0c12063c  45%, #030a02fb 90%);
   background-blend-mode: overlay;
   background-position: center;
   background-size: cover;
@@ -606,7 +606,7 @@ Styling
 }
 
 .section-call-to-action {
-  background-image: url(./img/call-to-action.png);
+  background-image: url(./img/call-to-action.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -851,6 +851,10 @@ Media Queries
     margin-inline: auto;
     justify-content: space-between;
     margin-bottom: 6rem;
+  }
+
+  .section-hero {
+    background-image: url(./img/barber-hero.jpg),linear-gradient(to bottom, #030a02f1 10%, #0c12063c  45%, #030a02fb 90%);
   }
 
   .about-us-container {
